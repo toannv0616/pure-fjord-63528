@@ -12,7 +12,12 @@ app.use(logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-    res.render('home');
+    var mongoURI = process.env.mongoURI;
+    if (mongoURI) {
+        res.render('home', { mongoURI: mongoURI });
+    } else {
+        res.render('home');
+    }
 });
 
 app.get('/login', function (req, res) {
