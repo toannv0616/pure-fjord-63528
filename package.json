@@ -1,0 +1,34 @@
+{
+  "name": "pure-fjord-63528",
+  "version": "0.0.1",
+  "description": "A simple messenger application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toannv0616/pure-fjord-63528.git"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "heroku"
+  ],
+  "author": "Toan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toannv0616/pure-fjord-63528/issues"
+  },
+  "homepage": "https://github.com/toannv0616/pure-fjord-63528#readme",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "hbs": "4.0.1",
+    "morgan": "1.8.1"
+  },
+  "engines": {
+    "node": "6.10.2",
+    "npm": "3.10.2"
+  }
+}
