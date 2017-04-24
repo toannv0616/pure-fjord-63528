@@ -15,6 +15,10 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
+app.get('/login', function (req, res) {
+    res.render('login');
+});
+
 app.listen(app.get('port'), function () {
     console.log('Node app is running on port', app.get('port'));
 });
