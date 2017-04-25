@@ -22,9 +22,11 @@
   },
   "homepage": "https://github.com/toannv0616/pure-fjord-63528#readme",
   "dependencies": {
+    "bcryptjs": "2.4.3",
     "body-parser": "1.17.1",
     "express": "4.15.2",
     "hbs": "4.0.1",
+    "mongoose": "4.9.6",
     "morgan": "1.8.1"
   },
   "engines": {
